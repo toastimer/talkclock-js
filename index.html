@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width"/>
+        <title>toastimer</title>
+        <link rel="stylesheet" href="assets/stylesheets/bootstrap.min.css"/>
+        <link rel="stylesheet" href="assets/stylesheets/bootstrap-select.min.css"/>
+        <link rel="stylesheet" href="assets/stylesheets/style.css"/>
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+
+        <div id="wrapper">
+            <div class="logo"><img src="assets/images/logo50.png"></div>
+            <p>A Toastmaster's speech timer.</p>
+
+            <div id="timer">00:00</div>
+
+            <select id="timePicker" class="selectpicker" autocomplete="off">
+				<option value="2">1-2 minutes</option>
+                <option value="7" selected="selected">5-7 minutes</option>
+                <option value="0">Custom</option>
+            </select>
+
+            <div class="input-group custom">
+                <input type="text" class="form-control">
+                <span class="input-group-addon">to</span>
+                <input type="text" class="form-control">
+                <span class="input-group-addon">minutes</span>
+            </div>
+
+	            <div id="controls">
+                <button id="startButton" type="button" class="btn btn-start">Start</button>
+                <button id="stopButton" type="button" class="btn btn-stop">Stop</button>
+				<button id="startButton-half" type="button" class="btn btn-start2">Start</button>
+				<button id="resetButton-half" type="button" class="btn btn-reset">Reset</button>				
+            </div>
+
+            <div class="color-legend">
+                <span id="gIcon" class="label green">5:00</span>
+                <span id="oIcon" class="label yellow">6:00</span>
+                <span id="rIcon" class="label red">7:00</span>	
+            </div>
+
+        </div>
+
+        <script src="assets/javascripts/jquery-2.0.3.min.js"></script>
+        <script src="assets/javascripts/bootstrap.min.js"></script>
+        <script src="assets/javascripts/timer.jquery.min.js"></script>
+        <script src="assets/javascripts/toastimer.js"></script>
+        <script src="assets/javascripts/bootstrap-select.min.js"></script>
+
+    </body>
+</html>
+

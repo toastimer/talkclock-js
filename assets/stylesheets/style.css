@@ -1,0 +1,229 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body {
+	background-image: -webkit-linear-gradient(bottom, #1868c1, #275d9b);
+	background-image: -moz-linear-gradient(bottom, #1868c1, #275d9b);
+	background-image: -o-linear-gradient(bottom, #1868c1, #275d9b);
+	background-image: -ms-linear-gradient(bottom, #1868c1, #275d9b);
+	background-image: linear-gradient(to top, #1868c1, #275d9b);
+		color:white;
+		font-family: 'Roboto', sans-serif;
+	    height: 100%;
+	    margin: 0;
+	    background-repeat: no-repeat;
+	    background-attachment: fixed;
+}
+
+#wrapper {
+  margin: auto;
+  width: 400px;
+  text-align:center;
+}
+
+.logo {
+	margin:20px auto;
+	height: 50px;
+	width: 50px;
+}
+
+#timer {
+	font-size: 100px;
+	color: white;
+	font-weight: 100;
+	margin-bottom:20px;
+}
+
+/* Timer Controls */
+
+#controls {
+    padding-top: 50px;
+}
+
+#stopButton {
+	padding: 14px 100px;
+    display: none; /* #stopButton should be hidden initially */
+	font-size: 18px;
+	border-radius: 6px;
+	background-color: transparent;
+	border: 3px solid white;
+	color:white;
+	/*margin-top:100px;*/
+	}
+
+#stopButton:hover, #stopButton:active, #stopButton:focus {
+	background-color:#ff0500;
+	border: 3px solid #ff0500;	
+}
+
+#startButton {
+	padding: 14px 100px;
+	font-size: 18px;
+	border-radius: 6px;
+	background-color:#0baa1a;
+	border:3px solid #0baa1a;
+	color:white;
+}
+
+#startButton-half {
+	padding: 14px 50px;
+	font-size: 18px;
+	border-radius: 6px;
+	background-color:#0baa1a;
+	border:3px solid #0baa1a;
+	color:white;
+	margin-right:10px;
+	display:none;
+}
+
+#resetButton-half {
+	padding: 14px 50px;
+	font-size: 18px;
+	border-radius: 6px;
+	background-color: transparent;
+	border: 3px solid white;
+	color:white;
+    display: none;	
+	/*margin-top:100px;*/
+}	
+
+/* Changing Background Colors */
+
+#green {
+	background-image: -webkit-linear-gradient(bottom, #46bb51, #279b2c);
+		background-image: -moz-linear-gradient(bottom, #46bb51, #279b2c);
+		background-image: -o-linear-gradient(bottom, #46bb51, #279b2c);
+		background-image: -ms-linear-gradient(bottom, #46bb51, #279b2c);
+		background-image: linear-gradient(to top, #46bb51, #279b2c);
+}
+
+#yellow {
+	background-image: -webkit-linear-gradient(bottom, #e1d448, #d1a90b);
+		background-image: -moz-linear-gradient(bottom, #e1d448, #d1a90b);
+		background-image: -o-linear-gradient(bottom, #e1d448, #d1a90b);
+		background-image: -ms-linear-gradient(bottom, #e1d448, #d1a90b);
+		background-image: linear-gradient(to top, #e1d448, #d1a90b);
+}
+
+#red {
+	background-image: -webkit-linear-gradient(bottom, #f83925, #a90808);
+		background-image: -moz-linear-gradient(bottom, #f83925, #a90808);
+		background-image: -o-linear-gradient(bottom, #f83925, #a90808);
+		background-image: -ms-linear-gradient(bottom, #f83925, #a90808);
+		background-image: linear-gradient(to top, #f83925, #a90808);
+}
+
+/* Time Select */
+	
+.btn-group.select {
+margin-top:20px;
+}
+
+.bootstrap-select.btn-group .btn .filter-option {
+	text-align: center;
+}
+
+.btn.btn-select.dropdown-toggle {
+width: 245px;
+padding-top:14px;
+padding-bottom:14px;
+background-color:#0baa1a;
+border:3px solid #0baa1a;
+color:white;
+font-size: 18px;
+}
+
+.input-group.custom {
+width: 245px;
+margin: 0px auto;
+position:absolute; /* remove when active */
+left:-99999em; /* remove when active */
+}
+
+.color-legend .label {
+padding: 10px;
+margin-right: 10px;
+}
+
+.color-legend .label:last-child {
+	margin-right:0;
+}
+
+.label.green {
+	background-color:#5cb85c;
+}
+
+.label.yellow {
+	background-color:#f0ad4e;
+}
+
+.label.red {
+	background-color:#d9534f;
+}
+
+.color-legend {
+	margin-top:20px;
+}
+
+/* --- Select UI Styles --- */
+
+.caret {
+display: inline-block;
+width: 0;
+height: 0;
+margin-left: 2px;
+vertical-align: middle;
+border-top: 8px solid #000;
+border-right: 8px solid transparent;
+border-left: 8px solid transparent;
+content: "";
+top: 18px;
+}
+
+.bootstrap-select.btn-group .btn .caret {
+	right:40px;
+}
+
+.btn.btn-default.dropdown-toggle {
+background: none;
+border: none;
+}
+
+.bootstrap-select.open input:focus {
+    outline:none;
+}
+
+.btn.btn-default.dropdown-toggle input:focus {
+    outline:none;
+}
+
+.filter-option.pull-left {
+font-size: 1.4em;
+font-weight: 300;
+text-align:center;
+}
+
+.form-control {
+background: transparent;
+border: 1px solid white;
+color:white;
+}
+
+.input-group-addon {
+background: transparent;
+}
+
+.dropdown-menu.open {
+width: 245px;
+}
+
+.btn-group.bootstrap-select {
+width: 245px;
+}
